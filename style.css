@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+font-style: normal;
+overflow-x: hidden;
+padding: 15px;
+
+}
+
+.globalContainer{
+    background-image: url("./images/backgroundImage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120%;
+    width: 120%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    
+}
+
+.headerText{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    /* margin: 50px 50px 50px 50px; */
+    /* margin:  50px 50px; */
+    margin:  50px;
+}
+
+.innerContainer{
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 100%;
+}
+
+.form{
+    /* border: 1px solid green; */
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.form label{
+    font-weight: 600;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    outline: none;
+}
+
+/* Select option styling */
+.personalitySelect{
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.radioSection{
+    margin-top: 15px;
+    background-color: white;
+
+    
+}
+
+.textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    outline: none;
+
+}
+.myCheckbox{
+    width: 100%;
+    padding: 10px;
+    margin-top: 0;
+    outline-color: aliceblue;
+    background-color: white;
+    
+}
+
+.myButton{
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+    outline: none;
+    font-size: 2em;
+    background-color: blue;
+    text-align: center;
+} 
+
+     
+     
+
+    
+
+
+
